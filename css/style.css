@@ -1,0 +1,113 @@
+body {
+
+	background: #F0F8FE;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+
+}
+
+
+.wrap {
+	width: 1024px;
+	margin: auto;
+	padding: 5px;
+	font-family: inherit;
+}
+
+.wrap .user-list {
+	float: left;
+	width: 200px;
+	font-family: inherit;
+	background: #fff;
+	min-height: 450px;
+	border-radius: 3px;
+	border: 1px solid #b6c5fc;
+}
+
+.wrap .message {
+
+	margin-left: 220px;
+
+	width: 788px;
+	padding: 5px;
+	background: #fff;
+	height: 450px;
+	border-radius: 3px;
+	border: 1px solid #B6C5FC;
+	overflow-y: auto;
+
+}
+
+.wrap .panel {
+	background-color: #E7ECFE;
+}
+
+.wrap .panel:after {
+	clear: both;
+}
+
+.header {
+	margin: -5px;
+	padding: 0;
+	background: #859EFA;
+	color: #fff;
+}
+
+.user {
+	border-bottom: 1px solid #e7ecfe;
+	padding: 5px;
+}
+
+.income {
+	float: left;
+	background: #ebedef;
+	padding: 5px;
+	max-width: 400px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+
+.income::after {
+	clear: both;
+}
+
+
+.outcome {
+	float: right;
+	background: #71b5f8;
+	padding: 5px;
+	max-width: 400px;
+	margin: 5px;
+	border: 1px solid #859efa;
+	color: #fff;
+	border-radius: 10px;
+
+}
+
+
+.outcome::after {
+	clear: both;
+}
+
+.user-list .avatar img {
+	width: 30px;
+	height: 30px;
+}
+
+.user-list .avatar {
+	border: 1px solid #e7ecfe;
+	border-radius: 2px;
+}
+
+.message-list {
+	float: left;
+	min-width: 480px;
+}
+
+.usr {
+	color: #101dd8;
+	font-weight: bold;
+}
